@@ -1,0 +1,40 @@
+#logo {
+    float: left;
+
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+    background-color: #f6e7e7; /* Pastel pink */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #dd90fb; /* Pastel purple */
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+main {
+    padding: 20px;
+}
+
+.product {
+    background-color: #ffc6e6; /* Light pastel pink */
+    border: 1px solid #f6e7e7; /* Match the body background */
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #dd90fb; /* Pastel purple */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
