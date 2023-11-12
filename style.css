@@ -1,6 +1,13 @@
-#logo {
-    float: left;
+#logo-container {
+    display: flex;
+    justify-content: left;
+}
 
+#logo {
+    max-width: 18%; /* Ensure the image doesn't exceed the container width */
+    max-height: 20%; /* Ensure image doesn't exceed container height */
+    height: auto;
+   
 }
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
@@ -13,7 +20,7 @@ header {
     background-color: #dd90fb; /* Pastel purple */
     color: #fff;
     text-align: center;
-    padding: 30px;
+    padding: 10px;
 }
 
 h1 {
